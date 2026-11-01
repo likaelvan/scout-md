@@ -1,0 +1,38 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local data (real doctor data stays on this computer)
+data/
+exports/
+debug/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.xlsx
+*.csv
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

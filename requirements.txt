@@ -1,0 +1,10 @@
+streamlit>=1.50
+pandas>=2.0
+openai>=1.40          # used as a generic client for Groq's OpenAI-compatible API
+python-dotenv>=1.0
+pydantic>=2.6
+rapidfuzz>=3.6
+pytest>=8.0
+requests>=2.31
+beautifulsoup4>=4.12
+dnspython>=2.6        # email domain (MX) checks
